@@ -1,0 +1,510 @@
+
+body {
+    /* padding:5px; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image img {
+    width: 134px;
+    color: gray;
+
+}
+header{
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list ul {
+    display: flex;
+    gap: 24px;
+}
+
+.list ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.list ul li span {
+    padding: 0 2px;
+}
+
+.first-child {
+    margin: 85px 0 40px;
+    text-align: center;
+    font-size: 48px;
+    word-spacing: 5px;
+}
+
+
+main .width {
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    padding: 0 0 10px;
+    width: 1000px;
+}
+
+.button {
+    text-align: center;
+
+}
+
+.button button {
+    background-color: #00b6d1;
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0px 0px 0px 1px white;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.button button:hover {
+    background-color: #03d9f9fe;
+}
+.vs{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin: 81px 184px 0 
+}
+.card{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 160px 160px 160px 160px;
+    justify-content: center;
+    gap: 40px 40px;
+    margin: 20px 0;
+    
+}
+.box{
+    border: none;
+    background-color: #f9f9f9;
+    /* box-shadow: 0px 0px 1px black; */
+
+}
+.box h3{
+    padding:  0 10px;
+    text-align: center;
+}
+.box p{
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 0.1;
+    font-size: 12px;
+}
+.box .butn{
+    margin: 45px 0 0;
+
+text-align: center;
+}
+.box .box1{
+    margin: 62px 0 0;
+
+text-align: center;}
+
+.box .butn button{
+    padding: 8px 15px;
+    background-color:#5cb85c;
+    border-radius: 7px;
+    border: none;
+    box-sizing: 0 0 3px black;
+    color: white;
+    font-weight: 900;
+    font-size: 12px;
+cursor: pointer;
+    
+}
+
+.box .butn button:hover{
+    background-color: #5cb85cd9;
+}
+/* Default styles */
+
+/* Add this block for small screens */
+
+.bgblack {
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.flex{display: flex;
+    justify-content:center ;
+    gap: 80px;
+    align-items: flex-end;
+
+}
+.head p{
+    width: 420px;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 16px;
+    
+}
+.head h3{
+font-size: 24px;
+}
+.head {
+    text-align: center;
+    margin: 90px 0 0 0 ;
+}
+.bgblack {
+    background-color: black; /* Assuming you have this or a similar style */
+    padding-top: 1rem; /* Add some padding */
+    
+    
+}
+.form{
+    margin: 50px 0 0 0 ;
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    box-shadow: 0 1px 2px  black;
+    border-radius: 15px;
+
+}
+form{
+    padding: 30px 35px ;
+}
+
+.form p{
+    text-align: center;
+    font-size: 24px;
+    color:rgb(77 170 242);
+    margin: 0;
+}
+.form form input{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    display: block;
+    text-shadow: none;
+    background: #fff;
+    font-size: 14px;
+    margin: 0;
+    line-height: normal;
+    border: 1px solid;
+    border-color: rgb(51 51 51 / 16%);
+    box-sizing: border-box;
+}
+.form form label{
+    display: block;
+    text-align: center;
+    margin: 25px 0 0;
+    font-size: 14px;
+    /* border: none; */
+
+}
+.form form button
+{
+    width: 100%;
+    display: block;
+    margin:10px auto ;
+    padding: 14px 14px;
+    height: 50px;
+    border: none;
+    background-color: rgb(77 170 242);
+    color:white;
+    font-weight: 800;
+    border-radius: 7px;
+    box-shadow: 0 12px 18px -6px rgb(77 170 242/37%);
+}
+.headerbottom{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    margin: 140px 780px 0 ;
+
+}
+.headerbottom strong{
+    color: #00b6d1;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    margin: 0 0 55px;
+    gap: 30px;
+}
+.boxtoflex{
+/* line-height: 0.5em;line-height:1em; */
+line-height:1em;
+font-size: 16px;
+}
+.boxtoflex h3{
+    margin: 0px 0px 40px 0px;
+}
+.heigth{
+    width: 300px;
+    
+}
+.boxtoflex input{
+    width: 100%;
+    display: block;
+    margin:1px auto ;
+    padding: 10px;
+    border: 1px solid rgb(51 51 51 / 16%);
+    text-shadow: none;
+    height: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 12px 18px -6px rgba(196, 220, 239, 0.37);}
+    .boxtoflex button
+    {
+        cursor: pointer;
+        width: 100%;
+        display: block;
+        margin:10px auto ;
+        padding: 14px 14px;
+        border: none;
+        background-color: rgb(77 170 242);
+        color:white;
+        font-weight: 800;
+        border-radius: 7px;
+        box-shadow: 0 12px 18px -6px rgb(77 170 242/37%);
+
+    }
+    .boxtoflex p{
+        line-height: 0.5rem;
+    }
+    
+    
+        .form {
+            padding: 15px;
+        }
+    
+        .form form button {
+            font-size: 16px;
+            padding: 10px;
+        }
+    /* Media Queries for Responsiveness */
+
+/* For screens up to 1024px wide (large tablets and small laptops) */
+@media (max-width: 1024px) {
+    /* Header */
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .image img {
+        width: 100px;
+    }
+
+    /* Main content */
+    main p:first-child {
+        font-size: 36px;
+        margin: 60px 0 30px;
+    }
+
+    main .width {
+        font-size: 20px;
+        width: 90%;
+        padding: 0 10px;
+    }
+
+    /* Card layout */
+    .card {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+/* For screens up to 768px wide (large phones and tablets) */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 8px;
+    }
+
+    .list ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .image img {
+        width: 80px;
+    }
+
+    /* Main content */
+    main p:first-child {
+        font-size: 28px;
+        margin: 40px 0 20px;
+    }
+
+    main .width {
+        font-size: 18px;
+        width: 85%;
+    }
+
+    /* Card layout */
+    .card {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    /* Form */
+    .form {
+        padding: 15px;
+        margin: 30px 0 0;
+    }
+
+    .form form input,
+    .form form button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    /* Flexbox utilities */
+    .flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .flexbox {
+        flex-direction: column;
+        gap: 20px;
+        margin: 40px 0;
+    }
+}
+
+/* For screens up to 480px wide (small phones) */
+@media (max-width: 480px) {
+    /* Header */
+    header {
+        padding: 5px;
+    }
+
+    .image img {
+        width: 60px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .list ul {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    /* Main content */
+    main p:first-child {
+        font-size: 24px;
+        margin: 30px 0 15px;
+    }
+
+    main .width {
+        font-size: 16px;
+        width: 95%;
+    }
+
+    /* Button */
+    .button button {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    /* Card layout */
+    .card {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .box {
+        padding: 10px;
+    }
+
+    /* Form */
+    .form {
+        padding: 10px;
+        margin: 20px 0 0;
+    }
+
+    .form form input,
+    .form form button {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    /* Footer */
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-section {
+        padding: 5px;
+    }
+
+    /* Flexbox utilities */
+    .flexbox {
+        flex-direction: column;
+        gap: 15px;
+        margin: 30px 0;
+    }
+}
+footer{
+    background-color: #f9f9f9;
+    padding: 100px;
+}
+.footimg{
+    margin: 0 0 0 110px;
+   
+}
+.lastdiv{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footimg p{
+font-size: 10px;
+
+}
+.list2 ul {
+    display: flex;
+    gap: 10px;
+    margin-right: 140px;
+    transition: transform 300ms ease 0ms, color 300ms ease 0ms;
+}
+.list2 ul li{
+    list-style: none;
+}
+.list2 ul li:hover{
+    transform: scale(1.2);
+
+}
+
+
+
